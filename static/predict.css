@@ -1,0 +1,201 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: #1b262c ; */
+    color: black !important;
+}
+
+.contain {
+    background-color: #1b262c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav.navbar.bg-light {
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+}
+
+.links {
+    padding-top: 20px;
+}
+
+.navb {
+    font-weight: bold;
+    font-size: 3rem !important;
+    color: black;
+}
+
+.container {
+    /* background-color: #1b262c; */
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.nnimage {
+    height: 500px;
+    padding-left: 40px;
+    padding-bottom: 106px;
+    padding-top: 20px;
+    padding-right: 60px;
+    float: left;
+}
+
+.nndetails {
+    padding-left: 50px;
+}
+
+h1 {
+    color: white;
+}
+
+.ppred {
+    color: white;
+}
+
+.fright {
+    padding-top: 80px;
+    padding-left: 30px !important;
+}
+
+#predict-button {
+    padding: 10px 50px !important;
+
+}
+
+#predict-button {
+    cursor: pointer !important;
+    font-size: 2.5rem !important;
+}
+
+#image-selector::before {
+    padding: 50px 50px !important;
+}
+
+#image-selector:hover {
+    cursor: pointer !important;
+}
+
+.neg {
+    color: white !important;
+    padding-left: 50px !important;
+}
+
+.pos {
+    color: white !important;
+
+}
+
+.preds {
+    color: #767c77;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.bottom {
+    color: #767c77 !important;
+    padding-top: 30px !important;
+}
+
+.button-clicked {
+    height: 100px;
+    width: 100px;
+}
+
+#neg-prediction {
+    color: white;
+}
+
+#pos-prediction {
+    color: white;
+}
+
+span#neg-prediction {
+    color: white;
+}
+
+.pneum-detail {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: white;
+    padding-right: 10px;
+}
+
+.unicef {
+    text-align: center;
+    color: white;
+    padding-right: 10px;
+}
+
+h4 {
+    color: white;
+}
+
+.saidby {
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.container-three {
+    height: 300px;
+    color: thistle;
+}
+
+.ai {
+    color: black;
+    font-size: 3rem;
+    padding: 20px 0 0 20px;
+}
+
+.ai-desc1 {
+    color: black;
+    padding: 0 20px 0 60px;
+}
+
+.lungs {
+    align-content: center;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.container-two {
+    background-color: #1b262c;
+    height: 550px !important;
+    width: 100%;
+    /* padding-top: 50px; */
+    margin-top: 100px;
+}
+
+.bottom-pad {
+    padding-left: 540px;
+}
+
+@media screen and (max-width: 992px) {
+    .container-two {
+        background-color: #1b262c;
+        height: 750px !important;
+        width: 100%;
+        /* padding-top: 50px; */
+        margin-top: 100px;
+    }
+    .lungs {
+        align-content: center;
+        padding-left: 20px;
+        float: left;
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 130px;
+    }
+}

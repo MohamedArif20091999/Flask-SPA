@@ -1,0 +1,15 @@
+Flask
+gunicorn
+h5py
+Jinja2
+tensorflow==1.14.0
+Keras==2.2.5
+numpy
+pandas
+Pillow
+scipy
+tqdm
+urllib3
+utils
+pybase64
+
